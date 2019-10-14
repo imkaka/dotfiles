@@ -136,6 +136,7 @@
          ".vscode",
          ".mypy_cache",
          "env",
+        ".idea",
     ],
     "font_face": "Fira Code",
     "font_options":
