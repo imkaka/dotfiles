@@ -126,6 +126,17 @@
         "*.psd",
         "*.sublime-workspace"
     ],
+    "folder_exclude_patterns":
+    [
+        ".svn",
+         ".git",
+         ".hg",
+         "CVS",
+         "__pycache__",
+         ".vscode",
+         ".mypy_cache",
+         "env",
+    ],
     "font_face": "Fira Code",
     "font_options":
     [
