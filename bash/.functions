@@ -1,0 +1,15 @@
+# mkdir + cd
+function md(){
+    mkdir -p $1 && cd $1;
+    }
+
+# create python env and activate
+function mkenv(){
+    python -m venv env;
+    source env/bin/activate;
+    }
+
+# activate python env when in root directory
+function activ(){
+    source env/bin/activate;
+}
