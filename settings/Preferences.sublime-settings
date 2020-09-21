@@ -78,7 +78,8 @@
         "BracketHighlighter",
         "Material Theme",
         "Predawn",
-        "SideBarEnhancements"
+        "SideBarEnhancements",
+        "GitGutter"
     ],
     "line_padding_bottom": 1,
     "line_padding_top": 1,
@@ -89,7 +90,6 @@
     "material_theme_compact_sidebar": true,
     "mini_diff": false,
     "open_files_in_new_window": false,
-    "overlay_scroll_bars": "enabled",
     "preview_on_click": false,
     "scroll_past_end": true,
     "scroll_speed": 5.0,
