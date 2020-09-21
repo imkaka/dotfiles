@@ -1,4 +1,9 @@
-[
+[   
+    { "keys": ["alt+d"], "command": "goto_definition" },
+    { "keys": ["alt+shift+d"], "command": "goto_reference" },
+    { "keys": ["super+shift+r"], "command": "goto_symbol_in_project" },
+    { "keys": ["ctrl+minus"], "command": "jump_back" },
+    { "keys": ["ctrl+shift+minus"], "command": "jump_forward" },
     { "keys": ["super+e", "super+e"], "command": "slurp_find_string" },
     { "keys": ["super+e", "super+l"], "command": "expand_selection", "args": {"to": "line"} },
     { "keys": ["super+l"], "command": "find_under" },
