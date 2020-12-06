@@ -12,3 +12,10 @@ fi
 # Setting PATH for Python 3.7
 # PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:${PATH}"
 # export PATH
+
+# Pyenv
+# if command -v pyenv 1>/dev/null 2>&1; then eval "$(pyenv init -)"; fi
+# RabbitMQ
+# export PATH=$PATH:/usr/local/sbin
+# Poetry
+# export PATH="$HOME/.poetry/bin:$PATH"

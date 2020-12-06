@@ -73,7 +73,3 @@ alias egrep='egrep --color=auto'
 
 # Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
 alias update_system='sudo softwareupdate -i -a'
-
-# Python env
-# alias wipe_env='rm -rf ~/tutorial_env; python3 -m venv ~/tutorial_env'
-# alias tut_env='source ~/tutorial_env/bin/activate'

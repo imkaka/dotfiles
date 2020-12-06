@@ -1,5 +1,5 @@
 {
-    "cmd": ["/usr/bin/python2.7", "-u", "$file"],
+    "cmd": ["<Custom Virtual ENV python path>", "-u", "$file"],
     "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
     "quiet": true
 }

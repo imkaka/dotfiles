@@ -50,7 +50,7 @@
     [
         "no_round"
     ],
-    "font_size": 17,
+    "font_size": 18,
     "highlight_line": true,
     "highlight_modified_tabs": true,
     "ignored_packages":
@@ -76,8 +76,6 @@
     [
         "Anaconda",
         "BracketHighlighter",
-        "Material Theme",
-        "Predawn",
         "SideBarEnhancements",
         "GitGutter"
     ],
