@@ -19,3 +19,4 @@ fi
 # export PATH=$PATH:/usr/local/sbin
 # Poetry
 # export PATH="$HOME/.poetry/bin:$PATH"
+eval "$(starship init bash)"
