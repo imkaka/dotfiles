@@ -39,3 +39,31 @@
 [mergetool "sourcetree"]
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[pull]
+  rebase = false
+[init]
+  defaultBranch = main
+
+# delta configs
+[pager]
+    diff = delta
+    log = delta
+    reflog = delta
+    show = delta
+[delta]
+    features = line-numbers decorations navigate
+    syntax-theme = Monokai Extended  # Dracula
+    plus-style = syntax "#003800"   #"syntax #012800"
+    minus-style = syntax "#3f0001"  #"syntax #340001"
+[delta "decorations"]
+    commit-decoration-style = bold yellow box ul
+    file-style = bold yellow ul
+    file-decoration-style = none
+    hunk-header-decoration-style = cyan box ul
+[delta "line-numbers"]
+    line-numbers-left-style = cyan
+    line-numbers-right-style = cyan
+    line-numbers-minus-style = 124
+    line-numbers-plus-style = 28
+[interactive]
+    diffFilter = delta --color-only

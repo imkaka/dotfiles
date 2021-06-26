@@ -10,6 +10,7 @@ brew cask install google-chrome
 brew cask install firefox
 brew cask install sublime-text
 brew cask install visual-studio-code
+brew install git-delta
 # brew cask install virtualbox
 # brew cask install sourcetree
 brew cask install spotify
@@ -25,3 +26,6 @@ brew cask install spotify
 brew tap homebrew/cask-fonts
 # brew cask install font-source-code-pro
 brew cask install font-fira-code
+
+brew install fish
+brew install starship
