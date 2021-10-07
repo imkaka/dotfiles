@@ -31,7 +31,7 @@
 [core]
 	excludesfile = /Users/imkaka/.gitignore
 [user]
-    email = anil.soccer.khatri@gmail.com
+    email = anilkhatri.dev@gmail.com
     name = Anil Khatri
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
