@@ -29,3 +29,4 @@ brew cask install font-fira-code
 
 brew install fish
 brew install starship
+brew install --cask fig
