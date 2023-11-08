@@ -6,10 +6,10 @@ brew install pyenv
 brew install tree
 
 # Install MacOS Applications
-brew cask install google-chrome
-brew cask install firefox
-brew cask install sublime-text
-brew cask install visual-studio-code
+brew install --cask google-chrome
+brew install --cask firefox
+brew install --cask sublime-text
+brew install --cask visual-studio-code
 brew install git-delta
 # brew cask install virtualbox
 # brew cask install sourcetree
@@ -25,7 +25,7 @@ brew cask install spotify
 # Install Source Code Pro Font
 brew tap homebrew/cask-fonts
 # brew cask install font-source-code-pro
-brew cask install font-fira-code
+brew install --cask font-fira-code
 
 brew install fish
 brew install starship

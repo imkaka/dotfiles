@@ -6,6 +6,7 @@ add_newline = true
 # success_symbol = "[➜](bold green)"     # The "success_symbol" segment is being set to "➜" with the color "bold green"
 [shell]
 bash_indicator = ""
+zsh_indicator = ""
 fish_indicator = ""
 powershell_indicator = "_"
 disabled = true
@@ -21,7 +22,7 @@ show_always = true
 ssh_only = false
 format =  "[$hostname](bold fg:229) in "
 trim_at = "."
-disabled = false
+disabled = true
 
 [cmd_duration]
 min_time = 500
@@ -44,7 +45,7 @@ symbol = " "
 [directory]
 read_only = " "
 
-[docker]
+[docker_context]
 symbol = " "
 
 [elixir]
@@ -58,9 +59,6 @@ symbol = " "
 
 [golang]
 symbol = " "
-
-[haskell]
-symbol = " "
 
 [hg_branch]
 symbol = " "
