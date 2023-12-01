@@ -11,6 +11,7 @@ brew install --cask google-chrome
 brew install --cask firefox
 brew install --cask sublime-text
 brew install --cask visual-studio-code
+brew install --cask alt-tab
 brew install git-delta
 # brew cask install virtualbox
 # brew cask install sourcetree
