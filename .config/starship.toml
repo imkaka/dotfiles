@@ -1,3 +1,4 @@
+# IMP - enable Unicode and FiraCode font in all the apps like Iterm2, Sublime & VSCode for icons.
 # Inserts a blank line between shell prompts
 add_newline = true
 
